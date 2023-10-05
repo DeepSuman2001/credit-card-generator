@@ -29,13 +29,11 @@ export default function App() {
 
               <div>
                 <h2 className="text-white text-xl lg:text-3xl mb-6 tracking-widest">
-                  0000 0000 0000 0000
                   {cardNumber}
                 </h2>
 
                 <ul className="flex items-center justify-between">
                   <li className="text-white uppercase text-base lg:text-xl tracking-widest">
-                    JANE APPLESEED
                     {name}
                   </li>
                   <li className="text-white text-base lg:text-xl tracking-widest">
@@ -47,7 +45,6 @@ export default function App() {
 
             <article className="back-card relative lg:ml-20">
               <p className="absolute right-10 text-lg lg:text-xl text-white tracking-widest">
-                000
                 {cvc}
               </p>
             </article>
